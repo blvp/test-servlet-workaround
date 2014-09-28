@@ -16,6 +16,7 @@ import java.io.IOException;
 /**
  * Created by admin on 2/27/14.
  */
+@Deprecated
 public class RootServlet extends FreemarkerServlet {
 
 

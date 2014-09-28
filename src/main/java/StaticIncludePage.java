@@ -20,6 +20,7 @@ import java.util.*;
 /**
  * Created by admin on 2/28/14.
  */
+@Deprecated
 public class StaticIncludePage extends IncludePage {
     private HttpServletRequest request;
     private HttpServletResponse response;

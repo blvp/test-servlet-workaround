@@ -16,6 +16,11 @@
             <version>3.0.1</version>
         </dependency>
         <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
             <version>2.3.20</version>
@@ -27,9 +32,6 @@
                 <plugin>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>2.4</version>
-                    <configuration>
-                        <webappDirectory>webapp</webappDirectory>
-                    </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -37,7 +39,6 @@
                     <configuration>
                         <source>1.7</source>
                         <target>1.7</target>
-                        <showWarnings>true</showWarnings>
                     </configuration>
                 </plugin>
             </plugins>

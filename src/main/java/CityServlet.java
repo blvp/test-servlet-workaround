@@ -9,6 +9,7 @@ import java.io.IOException;
  * Created by admin on 2/27/14.
  */
 @WebServlet("/city/*")
+@Deprecated
 public class CityServlet extends HttpServlet {
 
     @Override
